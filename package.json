@@ -6,6 +6,9 @@
   "license": "MIT",
   "private": false,
   "type": "module",
+  "scripts": {
+    "start": "npx tsc && node index.js"
+  },
   "devDependencies": {
     "@types/figlet": "^1.5.4",
     "@types/inquirer": "^9.0.1",
