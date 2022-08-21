@@ -3,8 +3,7 @@ import fs from 'fs'
 import chalk from 'chalk';
 import {
     IgApiClient,
-    AccountFollowersFeedResponseUsersItem,
-    AccountInsightsOptions
+    AccountFollowersFeedResponseUsersItem
 } from 'instagram-private-api';
 import figlet from 'figlet';
 import inquirer from 'inquirer';
@@ -16,8 +15,6 @@ const {
     USERNAME = '',
     PASSWORD = ''
 } = process.env;
-
-console.log(USERNAME);
 
 const displayMessage = () => {
     console.log(chalk['red'](figlet.textSync('Instagram Crow Ahh', {horizontalLayout: 'full'})));
