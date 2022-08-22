@@ -3,10 +3,10 @@ This bot can take all your followers and those you follow. And this bot can also
 
 ## Getting Started
 - Clone this repository into you're local machine
-- And then run ```bash npm install``` or ```bash yarn install```
+- And then run ```npm install``` or ```yarn install```
 - Create .env file
 - Set you're ```USERNAME``` and ```PASSWORD``` into .env file, you can looked in .env.example
-- Run ```bash npm start``` or ```bash yarn start``` to start the bot
+- Run ```npm start``` or ```yarn start``` to start the bot
 
 ## Support Me
 ### Indonesia
